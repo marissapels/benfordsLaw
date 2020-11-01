@@ -1,0 +1,22 @@
+.body {
+  color: black;
+}
+
+h1.display-4 {
+  font-weight: 400;
+}
+
+.validation {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+p.validation__value {
+  font-size: 1.5rem;
+}
+
+.form-control-file {
+  margin-bottom: 15px;
+}
