@@ -23,7 +23,6 @@
           <canvas id="myChart" width="400" height="400"></canvas>
           <script>
             let counts = {{ results|tojson }};
-            let validate = counts.data[0];
 
             let ctx = document.getElementById('myChart').getContext('2d');
             let myChart = new Chart(ctx, {
